@@ -2,23 +2,540 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarwar</title>
-    <link rel="stylesheet" href="./style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
 
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    
+  <!-- ================= NAVBAR ================= -->
+
+  <header>
+    <div class="container navbar">
+
+      <div class="logo">
+
+        <p>Sarwar</p>
+      </div>
+
+      <ul class="nav-menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <a href="#" class="cv-btn">
+        Download CV
+        <i class="fa-solid fa-download"></i>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero">
+
+    <div class="container hero-wrapper">
+
+      <!-- LEFT -->
+
+      <div class="hero-content">
+
+        <div class="small-title">
+          <h5>Hey, I’m</h5>
+        </div>
+
+        <h1>
+          Sarwar
+        </h1>
+
+        <h3>CSE Student & Web Developer</h3>
+
+        <p>
+          I build simple, clean and responsive websites
+          that help ideas come to life.
+        </p>
+
+        <div class="hero-btns">
+
+          <a href="#" class="primary-btn">
+            Explore My Work
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <a href="#" class="secondary-btn">
+            Get In Touch
+            <i class="fa-regular fa-paper-plane"></i>
+          </a>
+
+        </div>
+
+        <div class="follow">
+
+          <h4>Follow me</h4>
+
+          <div class="social-icons">
+
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="hero-image">
+
+        <div class="circle"></div>
+
+        <img src="./assets/me2.jpeg" alt="">
+
+        <div class="dot-box"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+
+  <section class="about">
+
+    <div class="container">
+
+      <div class="about-box">
+
+        <div class="about-left">
+
+          <div class="section-head">
+            <h2>About Me</h2>
+          </div>
+
+          <p>
+            I'm a Computer Science student who is passionate
+            about coding and building useful web applications.
+            I love learning new technologies and turning
+            complex problems into simple solutions.
+          </p>
+
+        </div>
+
+        <div class="about-card">
+
+          <div class="icon purple">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <h3>Education</h3>
+
+          <p>B.Sc in CSE</p>
+
+          <span>Varendra University</span>
+
+        </div>
+
+        <div class="about-card">
+
+          <div class="icon orange">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <h3>Experience</h3>
+
+          <p>Junior Developer</p>
+
+          <!-- <span>Freelance Projects</span> -->
+
+        </div>
+
+        <div class="about-card">
+
+          <div class="icon purple">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+
+          <h3>Location</h3>
+
+          <p>Rajshahi,</p>
+
+          <span>Bangladesh</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+
+  <section class="skills">
+
+    <div class="container">
+
+      <div class="section-head black">
+
+        <h2>What I Use</h2>
+
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon html">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <h4>HTML</h4>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon css">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <h4>CSS</h4>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon js">
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <h4>JavaScript</h4>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon tailwind">
+            <i class="fa-solid fa-wind"></i>
+          </div>
+          <h4>Tailwind CSS</h4>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon node">
+            <i class="fa-brands fa-node-js"></i>
+          </div>
+          <h4>Node.js</h4>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon mongo">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <h4>MongoDB</h4>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon git">
+            <i class="fa-brands fa-git-alt"></i>
+          </div>
+          <h4>Git & GitHub</h4>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= PROJECT ================= -->
+
+  <section class="projects">
+
+    <div class="container">
+
+      <div class="project-top">
+
+        <div class="section-head black">
+
+          <h2>Featured Projects</h2>
+
+        </div>
+
+        <a href="#" class="view-btn">
+          View All Projects
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+      </div>
+
+      <div class="project-grid">
+
+        <!-- CARD -->
+
+        <div class="project-card">
+
+          <img src="./assets/me.jpeg" alt="">
+
+          <div class="project-content">
+
+            <h3>Task Manager</h3>
+
+            <p>
+              A task management web app to add,
+              edit and track daily tasks.
+            </p>
+
+            <div class="project-bottom">
+
+              <div class="tags">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="project-card">
+
+          <img src="images/project2.jpg" alt="">
+
+          <div class="project-content">
+
+            <h3>Weather App</h3>
+
+            <p>
+              A weather application that shows real-time
+              weather information using API.
+            </p>
+
+            <div class="project-bottom">
+
+              <div class="tags">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="project-card">
+
+          <img src="images/project3.jpg" alt="">
+
+          <div class="project-content">
+
+            <h3>Travel Website</h3>
+
+            <p>
+              A responsive website template for
+              travel and tour related sites.
+            </p>
+
+            <div class="project-bottom">
+
+              <div class="tags">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+
+  <section class="contact">
+
+    <div class="container">
+
+      <div class="contact-wrapper">
+
+        <!-- LEFT -->
+
+        <div class="contact-left">
+
+          <div class="section-head black">
+
+            <h2>Let’s Connect</h2>
+
+          </div>
+
+          <p>
+            I’m open to new opportunities and
+            exciting collaborations.
+          </p>
+
+          <div class="contact-info">
+
+            <div>
+              <i class="fa-regular fa-envelope"></i>
+              <span>sarwarjahans2001@gmail.com</span>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>linkedin.com/in/sarwar01/</span>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-github"></i>
+              <span>github.com/sarwar-jahan1</span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Rajshahi, Bangladesh</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="contact-right">
+
+          <form>
+
+            <div class="input-row">
+
+              <input type="text" placeholder="Your Name">
+
+              <input type="email" placeholder="Your Email">
+
+            </div>
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button class="send-btn">
+              Send Message
+              <i class="fa-regular fa-paper-plane"></i>
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-wrapper">
+
+        <!-- LEFT -->
+
+        <div class="footer-left">
+
+          <p>
+            Building clean, modern and responsive
+            web experiences with creativity.
+          </p>
+
+        </div>
+
+        <!-- CENTER -->
+
+        <ul class="footer-menu">
+
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+
+        </ul>
+
+        <!-- RIGHT -->
+
+        <div class="footer-social">
+
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+          <a href="#"><i class="fa-regular fa-envelope"></i></a>
+
+        </div>
+
+      </div>
+
+      <!-- BOTTOM -->
+
+      <div class="footer-bottom">
+
+        <p>
+          © 2026 Sarwar . All rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
-
-<script src="./script.js"></script>
 
 </html>
