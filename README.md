@@ -57,7 +57,10 @@ src/
 ├── App.jsx
 └── main.jsx
 ```
+---
+Live Link: https://sarwardev.netlify.app/
 
+---
 ---
 
 ## 🚀 Getting Started
@@ -65,13 +68,7 @@ src/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-### Navigate to the Project
-
-```bash
-cd your-repository
+git clone https://github.com/sarwar-jahan1/Portfolio.git
 ```
 
 ### Install Dependencies
