@@ -45,7 +45,7 @@ export default function Navbar({ theme, toggleTheme }) {
           onClick={() => handleNavClick("home")}
           className="font-display text-lg font-semibold tracking-tight text-ink dark:text-ink-dk"
         >
-          Sarwar<span className="text-accent">.</span>dev
+          limon<span className="text-accent">.</span>dev
         </button>
 
         <ul className="hidden items-center gap-8 md:flex">
